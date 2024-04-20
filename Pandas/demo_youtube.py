@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv("youtube-ing.csv")
+df=pd.read_csv("Pandas/youtube-ing.csv")
 # 1- İlk 10 kaydı getiriniz.
 result=df.head(10)
 # 2- İkinci 8 kaydı getiriniz.

@@ -1,6 +1,6 @@
 import pandas as pd
 #1- Dosya hakkındaki bilgiler
-df_read=pd.read_csv("imdb.csv")
+df_read=pd.read_csv("Pandas/imdb.csv")
 df=pd.DataFrame(df_read)
 # 2- İlk 5 kaydı gösterin
 result=df.head(5)

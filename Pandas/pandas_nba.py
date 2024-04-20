@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv("nba.csv")
+df=pd.read_csv("Pandas/nba.csv")
 # 1- iLK 10 kaydı getirin
 result=df.head(10)
 # 2- Toplam kaç kayıt vardır ?

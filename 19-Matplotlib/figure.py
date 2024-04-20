@@ -23,12 +23,11 @@ axes_square.set_title("Square")
 """
 """
 figure = plt.figure()
-
 axes = figure.add_axes([0,0,1,1])
-
 axes.plot(x,z,label="Square")
 axes.plot(x,y,label="Cube")
 axes.legend(loc=4)
+
 """
 
 fig,axes = plt.subplots(nrows=2,ncols=1,figsize=(8,8))
